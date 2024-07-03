@@ -1,0 +1,159 @@
+{
+  "editor.fontSize": 17,
+  "editor.fontFamily": "Ubuntu Mono",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "trailing-spaces.highlightCurrentLine": true,
+  "trailing-spaces.includeEmptyLines": false,
+  "trailing-spaces.deleteModifiedLinesOnly": true,
+  "trailing-spaces.liveMatching": true,
+  "trailing-spaces.trimOnSave": true,
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.rulers": [79, 90],
+  "editor.semanticHighlighting.enabled": true,
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": "explicit",
+//     "source.organizeImports": "explicit"
+// },
+  "terminal.integrated.fontSize": 15,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1500,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "git.autofetch": false,
+  "git.enableSmartCommit": false,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": true,
+  "[python]": {
+    "gitlens.codeLens.symbolScopes": ["!Module"],
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.rulers": [
+      79
+    ],
+    "editor.formatOnType": false,
+    // "editord.codeActionsOnSave": {
+    //     "source.fixAll": "explicit",
+    //     "source.organizeImports": "never",
+    //     "source.organizeImports.ruff": "explicit"
+    // },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
+  "black-formatter.args": ["--line-length", "80"],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.extraPaths": [],
+  "terminal.integrated.allowChords": true,
+  "emmet.excludeLanguages": ["markdown"],
+  "editor.suggestSelection": "first",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/bin/zsh",
+      "icon": "star"
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "bookmarks.saveBookmarksInProject": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "settingsSync.ignoredSettings": ["python.languageServer"],
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "bookmarks.useWorkaroundForFormatters": true,
+  "editor.renderLineHighlight": "gutter",
+  "bookmarks.navigateThroughAllFiles": true,
+  "bookmarks.wrapNavigation": true,
+  "bookmarks.showCommandsInContextMenu": true,
+  "bookmarks.experimental.enableNewStickyEngine": true,
+  "bookmarks.sideBar.expanded": true,
+  "bookmarks.multicursor.toggleMode": "allLinesAtOnce",
+  "bookmarks.label.suggestion": "suggestWhenSelectedOrLineWhenNoSelected",
+  "bookmarks.keepBookmarksOnLineDelete": true,
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.disassemblyView.showSourceCode": false,
+  "terminal.integrated.gpuAcceleration": "canvas",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "indentRainbow.includedLanguages": ["python"], // for example ["nim", "nims", "python"]
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+  "indentRainbow.lightIndicatorStyleLineWidth": 0.5,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.ignoreLinePatterns" : [
+    "/[ \t]* [*]/g", // lines begining with <whitespace><space>*
+    "/[ \t]+[/]{2}/g" // lines begininning with <whitespace>//
+  ],
+  //"window.menuBarVisibility": "toggle",
+  "git.openDiffOnClick": true,
+  "scm.inputFontSize": 14,
+  "debug.console.fontSize": 14,
+  "markdown.preview.fontSize": 14,
+  "chat.editor.fontSize": 14,
+  "chat.editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.codeLensFontFamily": "JetBrainsMono Nerd Font Mono",
+  "scm.inputFontFamily": "JetBrainsMono Nerd Font Mono",
+"material-icon-theme.saturation": 1,
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.statusBar": "tags",
+"workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "python.testing.pytestEnabled": true,
+  "editor.minimap.enabled": false,
+  "zenMode.hideStatusBar": false,
+"zenMode.hideLineNumbers": false,
+"editor.lineHeight":1.5,
+"editor.lineNumbers": "on",
+"zenMode.restore": true,
+"vim.normalModeKeyBindingsNonRecursive": [
+  {
+      "before": [":", "w"],
+      "after": [],
+      "commands": [
+          {
+              "command": "workbench.action.files.save",
+              "args": []
+          }
+      ]
+  }
+],
+"multiCommand.commands": [
+  {
+      "command": "multiCommand.toggleTerminalAndFocus",
+      "sequence": [
+          "workbench.action.terminal.toggleTerminal",
+          "workbench.action.terminal.focus"
+      ]
+  }
+],
+"zenMode.centerLayout": false,
+"pylint.args": [
+  "--disable=missing-module-docstring",
+  "--disable=missing-class-docstring",
+  "--disable=missing-function-docstring"
+],
+"vim.handleKeys": {
+    "<C-f>": false,
+    "<C-b>": false
+
+},
+"vim.useCtrlKeys": true,
+"redhat.telemetry.enabled": true,
+"workbench.colorTheme": "Solarized Light",
+"workbench.activityBar.iconClickBehavior": "focus",
+"workbench.colorCustomizations": {},
+"editor.inlineSuggest.suppressSuggestions": true,
+"window.menuBarVisibility": "toggle",
+}
